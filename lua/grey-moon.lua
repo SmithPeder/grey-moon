@@ -18,30 +18,41 @@ local function highlight(group, styles)
   vim.api.nvim_command('highlight! '..group..' '..gui..' '..sp..' '..fg..' '..bg)
 end
 
--- local bg_darker      = '#121622'
-local bg_dark        = '#222222'
+
 local bg             = '#292d3e'
+local bg_dark        = '#111111'
+local bg_darker      = '#121622'
+
 local bg_light       = '#32374d'
 local bg_lighter     = '#444267'
+
 local grey           = '#8796b0'
 local grey_dark      = '#353b52'
+
 local red            = '#d06178'
 local red_dimmed     = '#a05168'
 local heavy_red      = '#e61f44'
+
 local green          = '#b4c4b4'
 local green_high     = '#bcd9c4'
+
 local blue           = '#959dcb'
 local blue_light     = '#b8bcf3'
+
 local yellow         = '#cfcfbf'
 local orange         = '#b4b4b4'
 local purple         = '#b9a3eb'
+
 local cyan_dark      = '#89bbdd'
 local cyan           = '#89ddff'
+
 local fg             = '#a6accd'
 local fg_light       = '#fbfbfb'
 local fg_dark        = '#676e96'
+
 local hollow         = '#424760'
 local hollow_lighter = '#30354e'
+
 local white          = '#ffffff'
 
 -- }}}
