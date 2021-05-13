@@ -1,8 +1,10 @@
 -- vim:fdm=marker
 -- Vim Color File
--- Name:       blue-moon.lua
--- Maintainer: https://github.com/kyazdani42
--- License:    The MIT License (MIT)
+-- OriginalName:                blue-moon.lua
+-- Name:                        grey-moon.lua
+-- OriginalMaintainer:          https://github.com/kyazdani42
+-- Maintainer:                  https://github.com/smithpeder
+-- License:                     The MIT License (MIT)
 
 local M = {}
 
@@ -16,8 +18,8 @@ local function highlight(group, styles)
   vim.api.nvim_command('highlight! '..group..' '..gui..' '..sp..' '..fg..' '..bg)
 end
 
-local bg_darker      = '#121622'
-local bg_dark        = '#1b1e2b'
+-- local bg_darker      = '#121622'
+local bg_dark        = '#222222'
 local bg             = '#292d3e'
 local bg_light       = '#32374d'
 local bg_lighter     = '#444267'
