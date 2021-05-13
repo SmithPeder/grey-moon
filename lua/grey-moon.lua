@@ -20,7 +20,7 @@ end
 
 
 local bg             = '#292d3e'
-local bg_dark        = '#101010'
+local bg_dark        = '#151515'
 local bg_darker      = '#121622'
 
 local bg_light       = '#32374d'
