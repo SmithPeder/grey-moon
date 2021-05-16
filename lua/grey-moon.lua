@@ -48,7 +48,7 @@ local cyan           = '#89ddff'
 
 local fg             = '#a6accd'
 local fg_light       = '#fbfbfb'
-local fg_dark        = '#676e96'
+local fg_dark        = '#595959'
 
 local hollow         = '#424760'
 local hollow_lighter = '#30354e'
