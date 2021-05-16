@@ -27,7 +27,7 @@ local bg_light       = '#32374d'
 local bg_lighter     = '#444267'
 
 local grey           = '#8796b0'
-local grey_dark      = '#353b52'
+local grey_light     = '#333333'
 
 local red            = '#d06178'
 local red_dimmed     = '#a05168'
@@ -80,8 +80,8 @@ local editor_syntax = {
   CursorLineNr = { fg = fg },
   MatchParen   = { fg = cyan, gui = 'bold' },
   Normal       = { fg = fg_light, bg = bg_dark },
-  NormalFloat  = { bg = grey_dark, fg = white },
-  Pmenu        = { bg = grey_dark, fg = fg_light },
+  NormalFloat  = { bg = grey_light, fg = white },
+  Pmenu        = { bg = grey_light, fg = fg_light },
   PmenuSel     = { bg = cyan, fg = bg_lighter, gui = 'bold' },
   PmenuSbar    = { bg = bg_lighter },
   PmenuThumb   = { bg = fg },
